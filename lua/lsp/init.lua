@@ -58,14 +58,25 @@ vim.lsp.config("pyright", {
   capabilities = capabilities,
 })
 
+local function mason_bin(exe)
+  local bin_dir = vim.fn.stdpath("data") .. "/mason/bin/"
+  local is_win = vim.fn.has("win32") == 1
+  if is_win then
+    return bin_dir .. exe .. ".cmd"
+  end
+  return bin_dir .. exe
+end
+
 local vue_plugin = {
   name = "@vue/typescript-plugin",
-  location = vim.fn.stdpath("data") .. "/mason/packages/vue-language-server/node_modules/@vue/language-server",
+  location = vim.fn.stdpath("data")
+      .. "/mason/packages/vue-language-server/node_modules/@vue/language-server",
   languages = { "vue" },
   configNamespace = "typescript",
 }
+
 vim.lsp.config("vtsls", {
-  cmd = { "vtsls", "--stdio" },
+  cmd = { mason_bin("vtsls"), "--stdio" },
   init_options = { hostInfo = "neovim" },
   settings = {
     vtsls = {

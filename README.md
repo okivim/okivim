@@ -35,7 +35,14 @@ npm install -g typescript typescript-language-server
 Used by Telescope for project-wide text search.
 
 ``` bash
-sudo dnf install ripgrep
+# Linux
+sudo apt install ripgrep
+# macOS
+brew install ripgrep
+# Windows
+scoop install ripgrep
+or
+choco install ripgrep
 ```
 
 ------------------------------------------------------------------------
@@ -45,13 +52,49 @@ sudo dnf install ripgrep
 Used by Telescope for fast file search.
 
 ``` bash
+# Linux
 sudo apt install fd-find
+# macOS
+brew install fd
+# Windows
+scoop install fd
+or
+choco install fd
 ```
 
 (Optional symlink)
 
 ``` bash
 ln -s $(which fdfind) ~/.local/bin/fd
+```
+
+------------------------------------------------------------------------
+
+### 5. Clipboard support
+
+Neovim requires an external tool to integrate with the system clipboard.
+
+#### Linux:
+
+First, check which display server you are using:
+
+```bash
+echo $XDG_SESSION_TYPE
+```
+
+- If it returns `wayland` - you are using Wayland
+- If it returns `x11` - you are using X11
+
+Wayland (wl-clipboard)
+
+```bash
+sudo apt install wl-clipboard
+```
+
+X11 (xclip)
+
+```bash
+sudo apt install xclip
 ```
 
 ------------------------------------------------------------------------

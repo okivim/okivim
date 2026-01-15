@@ -109,6 +109,68 @@ npm install -g prettier
 
 ------------------------------------------------------------------------
 
+### 6. nvim-treesitter (dependencies)
+
+1- Required nvim-treesitter-cli:
+
+``` bash
+# with npm
+npm install -g tree-sitter-cli
+# with cargo
+cargo install --locked tree-sitter-cli
+```
+
+And after check it
+
+``` bash
+tree-sitter --version
+```
+
+2- Required a C compiler:
+
+Check if CC is installed
+
+``` bash
+cc --version
+```
+
+Install on Linux
+
+``` bash
+# Ubuntu / Debian
+sudo apt install build-essential
+# Arch
+sudo pacman -S base-devel
+# Fedora
+sudo dnf groupinstall "Development Tools"
+```
+
+Install on macOS
+
+``` bash
+xcode-select --install
+```
+
+Install on Windows
+
+``` bash
+# By download link (✔ Select Desktop development with C++)
+https://visualstudio.microsoft.com/es/downloads/
+# Git Bash / MSYS2 / WSL
+sudo dnf groupinstall "Development Tools"
+```
+
+Final check if tree-sitter-cli and C compiler is installed
+
+``` bash
+cc --version
+```
+``` bash
+tree-sitter --version
+```
+
+------------------------------------------------------------------------
+
 ## Plugin manager
 
 -   **lazy.nvim**

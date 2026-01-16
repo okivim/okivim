@@ -12,6 +12,7 @@ local servers = {
   "bashls",
   "jsonls",
   "yamlls",
+  "phpactor",
 }
 
 -- Keymaps when LSP is attached

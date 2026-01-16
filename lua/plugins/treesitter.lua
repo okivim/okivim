@@ -14,14 +14,14 @@ return {
     require("nvim-treesitter").install({
       "lua", "html", "css", "scss",
       "javascript", "typescript", "tsx",
-      "vue", "yaml", "bash", "json", "toml",
+      "vue", "yaml", "bash", "json", "toml", "php",
       "python", "rust",
     })
 
     vim.api.nvim_create_autocmd("FileType", {
       pattern = {
         "vue", "html", "css", "scss", "javascript", "typescript", "tsx",
-        "lua", "json", "yaml", "bash", "toml", "python", "rust",
+        "lua", "json", "yaml", "bash", "toml", "php", "python", "rust",
       },
       callback = function()
         pcall(vim.treesitter.start)

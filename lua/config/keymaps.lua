@@ -43,8 +43,11 @@ vim.keymap.set("n", "<leader>gs", ":Gitsigns stage_hunk<CR>", {
 vim.keymap.set("n", "<leader>gr", ":Gitsigns reset_hunk<CR>", {
   desc = "Gitsigns: Reset hunk"
 })
-vim.keymap.set("n", "<leader>gb", ":Gitsigns blame_line<CR>", {
-  desc = "Gitsigns: Blame line"
+vim.keymap.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>", {
+  desc = "Gitsigns: Toggle current line blame"
+})
+vim.keymap.set("n", "<leader>gi", ":Gitsigns show_commit<CR>", {
+  desc = "Gitsigns: Show info about the commit"
 })
 vim.keymap.set("n", "<leader>gd", ":Gitsigns diffthis<CR>", {
   desc = "Gitsigns: Diff against HEAD"

@@ -232,50 +232,50 @@ Used to manage all plugins and allow easy setup on new machines.
 ## Installed Plugins
 
 ### Theme
-- **catppuccin.nvim**  
+- **catppuccin.nvim**
   https://github.com/catppuccin/nvim
 
 ### Autocomplete
-- **nvim-cmp**  
+- **nvim-cmp**
   https://github.com/hrsh7th/nvim-cmp
 
 ### LSP and Tools
-- **nvim-lspconfig** (Configuración LSP)  
+- **nvim-lspconfig** (LSP configuration)
   https://github.com/neovim/nvim-lspconfig
 
-- **mason.nvim** (Gestor de LSP/DAP/formatters)  
+- **mason.nvim** (LSP/DAP/formatters manager)
   https://github.com/williamboman/mason.nvim
 
-- **conform.nvim** (Formatter)  
+- **conform.nvim** (formatter)
   https://github.com/stevearc/conform.nvim
 
 ### Coloring and syntax
-- **nvim-treesitter**  
+- **nvim-treesitter**
   https://github.com/nvim-treesitter/nvim-treesitter
 
 ### Git
-- **gitsigns.nvim**  
+- **gitsigns.nvim**
   https://github.com/lewis6991/gitsigns.nvim
 
 ### Search and navigation
-- **telescope.nvim**  
+- **telescope.nvim**
   https://github.com/nvim-telescope/telescope.nvim
 
 ### File Explorer
-- **oil.nvim**  
+- **oil.nvim**
   https://github.com/stevearc/oil.nvim
 
 ### Interface
-- **lualine.nvim** (Statusline)  
+- **lualine.nvim** (status line)
   https://github.com/nvim-lualine/lualine.nvim
 
-- **which-key.nvim** (Ayuda de atajos)  
+- **which-key.nvim** (keymaps help)
   https://github.com/folke/which-key.nvim
 
-- **mini.starter** (Pantalla de inicio)  
-  https://github.com/echasnovski/mini.nvim
+- **mini.starter** (home page)
+  https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-starter.md
 
 ### Edition
-- **Comment.nvim**  
+- **Comment.nvim**
   https://github.com/numToStr/Comment.nvim
 

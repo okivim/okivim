@@ -13,6 +13,8 @@ full control over plugins and features.
 
 [See instructions](./installation.md)
 
+---
+
 ## Dependencies
 
 [See instructions](./dependencies.md)

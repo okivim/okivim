@@ -9,6 +9,8 @@ full control over plugins and features.
 - Git >= 2.19.0
 - a Nerd Font to display some icons (optional)
 
+---
+
 ## Installation
 
 [See instructions](./installation.md)

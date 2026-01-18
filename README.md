@@ -5,13 +5,13 @@ full control over plugins and features.
 
 ## Requirements
 
-These tools must be installed for the setup to work properly.
-
 - Neovim >= 0.11.2
 - Git >= 2.19.0
 - a Nerd Font to display some icons (optional)
 
 ## Dependencies
+
+These tools must be installed for the setup to work properly.
 
 ### 1. Node.js
 

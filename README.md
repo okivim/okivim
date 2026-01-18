@@ -11,6 +11,8 @@ These tools must be installed for the setup to work properly.
 - Git >= 2.19.0
 - a Nerd Font to display some icons (optional)
 
+## Dependencies
+
 ### 1. Node.js
 
 Required for the TypeScript LSP.

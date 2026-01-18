@@ -11,9 +11,9 @@ full control over plugins and features.
 
 ---
 
-## installation
+## Installation
 
-[How to install](./installation.md) ( [See dependencies](./dependencies.md) )
+**[How to install](./installation.md)** [ [See dependencies](./dependencies.md) ]
 
 ---
 

@@ -1,3 +1,9 @@
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Mathiew82/ikivim/main/logo.png" alt="ikivim">
+</div>
+
+&nbsp;
+
 # Neovim Setup
 
 This configuration is built from scratch, focused on speed, clarity and

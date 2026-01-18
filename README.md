@@ -4,7 +4,7 @@
 
 &nbsp;
 
-# Neovim Setup
+# ikivim setup
 
 This configuration is built from scratch, focused on speed, clarity and
 full control over plugins and features.

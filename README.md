@@ -73,6 +73,7 @@ These LSPs are automatically installed and enabled:
 
 ### Search and navigation
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) – Fuzzy finder
+- [aerial.nvim](https://github.com/stevearc/aerial.nvim) – Code outline
 
 ### Git
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) – Git indicators

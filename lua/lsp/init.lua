@@ -84,6 +84,7 @@ end
 
 -- Load servers
 load_servers(capabilities)
+require("lsp.servers.lua_ls")(capabilities)
 
 vim.lsp.enable(M.servers)
 

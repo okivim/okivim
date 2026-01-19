@@ -3,7 +3,7 @@
 </div>
 &nbsp;
 
-| ![](./screenshot1.png) | ![](./screenshot2.png) | ![](./screenshot3.png) | ![](./screenshot4.png) | ![](./screenshot5.png) |
+| ![](https://raw.githubusercontent.com/Mathiew82/ikivim/refs/heads/main/screenshot1.png) | ![](https://raw.githubusercontent.com/Mathiew82/ikivim/refs/heads/main/screenshot2.png) | ![](https://raw.githubusercontent.com/Mathiew82/ikivim/refs/heads/main/screenshot3.png) | ![](https://raw.githubusercontent.com/Mathiew82/ikivim/refs/heads/main/screenshot4.png) | ![](https://raw.githubusercontent.com/Mathiew82/ikivim/refs/heads/main/screenshot5.png) |
 |:---------------------:|:---------------------:|:---------------------:|:---------------------:|:---------------------:|
 
 ---

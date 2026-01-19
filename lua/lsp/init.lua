@@ -1,23 +1,5 @@
 local M = {}
 
--- Servers
-M.servers = {
-  "lua_ls",
-  "pyright",
-  "vtsls",
-  "vue_ls",
-  "cssls",
-  "eslint",
-  "rust_analyzer",
-  "docker_compose_language_service",
-  "tailwindcss",
-  "taplo",
-  "bashls",
-  "jsonls",
-  "yamlls",
-  "phpactor",
-}
-
 -- Keymaps
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("UserLspKeymaps", { clear = true }),
@@ -31,12 +13,15 @@ vim.api.nvim_create_autocmd("LspAttach", {
     vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
     vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
     vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
+
     vim.keymap.set("n", "[d", function()
       vim.diagnostic.jump({ count = -1 })
     end, opts)
+
     vim.keymap.set("n", "]d", function()
       vim.diagnostic.jump({ count = 1 })
     end, opts)
+
     vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, opts)
   end,
 })
@@ -59,23 +44,28 @@ capabilities.textDocument.completion.completionItem.documentationFormat = {
 
 M.capabilities = capabilities
 
-local function load_servers(capabilities_param)
-  local files = vim.fs.find(function(name)
-    return name:match("%.lua$") ~= nil
-  end, {
-    path = vim.fn.stdpath("config") .. "/lua/lsp/servers",
-    type = "file",
-  })
+-- Functions
+local servers_dir = vim.fn.stdpath("config") .. "/lua/lsp/servers"
 
-  table.sort(files)
+local function discover_servers()
+  local servers = {}
 
-  for _, file in ipairs(files) do
-    local mod = file
-        :gsub("^" .. vim.pesc(vim.fn.stdpath("config") .. "/lua/"), "")
-        :gsub("%.lua$", "")
-        :gsub("/", ".")
+  for name, t in vim.fs.dir(servers_dir) do
+    if t == "file" and name:sub(-4) == ".lua" then
+      local server = name:sub(1, -5) -- quita ".lua"
+      table.insert(servers, server)
+    end
+  end
 
+  table.sort(servers)
+  return servers
+end
+
+local function load_servers(capabilities_param, servers)
+  for _, server in ipairs(servers) do
+    local mod = "lsp.servers." .. server
     local okey, setup = pcall(require, mod)
+
     if okey and type(setup) == "function" then
       setup(capabilities_param)
     else
@@ -84,10 +74,11 @@ local function load_servers(capabilities_param)
   end
 end
 
--- Load servers
-load_servers(capabilities)
-require("lsp.servers.lua_ls")(capabilities)
+-- Discover + load server configs
+M.servers = discover_servers()
+load_servers(capabilities, M.servers)
 
+-- Enable LSPs
 vim.lsp.enable(M.servers)
 
 return M

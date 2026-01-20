@@ -98,6 +98,7 @@ These LSPs are automatically installed and enabled:
 - [mini.surround](https://github.com/nvim-mini/mini.surround) – Surround editing
 - [treesj](https://github.com/Wansmer/treesj) – Split/join code
 - [yanky.nvim](https://github.com/gbprod/yanky.nvim) – Yank history
+- [mynotes.nvim](https://github.com/Mathiew82/mynotes.nvim) – Your notes
 
 ### Git
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) – Git indicators
@@ -238,6 +239,12 @@ Huge thanks to these amazing developers for their awesome work:
     <td align="center">
       <a href="https://github.com/lewis6991">
         <img src="https://avatars.githubusercontent.com/u/143592?v=4" width="80"/>
+        <br/>lewis6991
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Mathiew82">
+        <img src="https://avatars.githubusercontent.com/u/22583657?v=4" width="80"/>
         <br/>lewis6991
       </a>
     </td>

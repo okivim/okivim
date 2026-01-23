@@ -1,5 +1,22 @@
 local M = {}
 
+-- Styles
+local border = "rounded"
+
+do
+  local orig = vim.lsp.util.open_floating_preview
+  ---@diagnostic disable-next-line: duplicate-set-field
+  function vim.lsp.util.open_floating_preview(contents, syntax, opts, ...)
+    opts = opts or {}
+    opts.border = opts.border or border
+    return orig(contents, syntax, opts, ...)
+  end
+end
+
+vim.diagnostic.config({
+  float = { border = border },
+})
+
 -- Keymaps
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("UserLspKeymaps", { clear = true }),
@@ -52,7 +69,7 @@ local function discover_servers()
 
   for name, t in vim.fs.dir(servers_dir) do
     if t == "file" and name:sub(-4) == ".lua" then
-      local server = name:sub(1, -5) -- quita ".lua"
+      local server = name:sub(1, -5)
       table.insert(servers, server)
     end
   end

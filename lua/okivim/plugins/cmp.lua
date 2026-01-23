@@ -40,6 +40,23 @@ return {
           { name = "nvim_lsp" },
           { name = "luasnip" },
         },
+
+        window = {
+          completion = cmp.config.window.bordered({
+            border = "rounded",
+          }),
+          documentation = cmp.config.window.bordered({
+            border = "rounded",
+          }),
+        },
+
+        formatting = {
+          format = function(entry, item)
+            item.abbr = " " .. item.abbr .. " "
+            item.menu = "  " .. (item.menu or "") .. " "
+            return item
+          end,
+        },
       })
     end,
   },

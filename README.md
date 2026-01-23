@@ -70,6 +70,13 @@ These LSPs are automatically installed and enabled:
 - [fidget.nvim](https://github.com/j-hui/fidget.nvim) – LSP progress UI
 - [conform.nvim](https://github.com/stevearc/conform.nvim) – Code formatter
 
+### Debugging (DAP)
+- [mason-nvim-dap.nvim](https://github.com/jay-babu/mason-nvim-dap.nvim) – Mason integration for DAP
+- [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) – Debugger UI
+- [nvim-dap-virtual-text](https://github.com/theHamsta/nvim-dap-virtual-text) – Inline debug values
+- [nvim-dap-vscode-js](https://github.com/mxsdev/nvim-dap-vscode-js) – VS Code JS debugger adapter
+- [nvim-nio](https://github.com/nvim-neotest/nvim-nio) – Async IO dependency
+
 ### Coloring and syntax
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) – Syntax highlighting
 - [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) – Color preview

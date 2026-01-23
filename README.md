@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/Mathiew82/okivim/main/logo.png" width="500" alt="okivim">
+    <img src="https://raw.githubusercontent.com/Mathiew82/okivim/main/logo.png" width="400" alt="okivim">
 </div>
 &nbsp;
 

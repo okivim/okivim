@@ -143,16 +143,6 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 
 ---
 
-### TODO list
-- [x] Sessions Manager (phantom.nvim)
-- [x] DAP Adapter
-- [x] DAP UI
-- [x] DAP Languages
-- [x] Improve autocomplete and LSP info popups
-- [ ] Create the keymaps documentation page
-
----
-
 &nbsp;
 
 <div align="center">

@@ -9,9 +9,9 @@
 
 ### TODO list
 - [x] Sessions Manager (phantom.nvim)
-- [ ] DAP Adapter
-- [ ] DAP UI
-- [ ] DAP Languages
+- [x] DAP Adapter
+- [x] DAP UI
+- [x] DAP Languages
 
 ---
 

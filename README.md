@@ -3,18 +3,6 @@
 </div>
 &nbsp;
 
-> [!WARNING]  
-> In progress...
-> You can use this configuration; it's stable. However, the following still needs to be added.
-
-### TODO list
-- [x] Sessions Manager (phantom.nvim)
-- [x] DAP Adapter
-- [x] DAP UI
-- [x] DAP Languages
-
----
-
 # okivim setup
 
 This configuration is built from scratch, focused on speed, clarity and
@@ -116,6 +104,15 @@ These LSPs are automatically installed and enabled:
 
 | ![](https://raw.githubusercontent.com/Mathiew82/okivim/refs/heads/main/screenshot1.png) | ![](https://raw.githubusercontent.com/Mathiew82/okivim/refs/heads/main/screenshot2.png) | ![](https://raw.githubusercontent.com/Mathiew82/okivim/refs/heads/main/screenshot3.png) | ![](https://raw.githubusercontent.com/Mathiew82/okivim/refs/heads/main/screenshot4.png) | ![](https://raw.githubusercontent.com/Mathiew82/okivim/refs/heads/main/screenshot5.png) |
 |:---------------------:|:---------------------:|:---------------------:|:---------------------:|:---------------------:|
+
+---
+
+### TODO list
+- [x] Sessions Manager (phantom.nvim)
+- [x] DAP Adapter
+- [x] DAP UI
+- [x] DAP Languages
+- [ ] Improve autocomplete and LSP info popups
 
 ---
 

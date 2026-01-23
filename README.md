@@ -65,7 +65,7 @@ These LSPs are automatically installed and enabled:
 
 ### LSP and Tools
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) – LSP setup
-- [mason.nvim](https://github.com/williamboman/mason.nvim) – LSP/DAP installer
+- [mason.nvim](https://github.com/williamboman/mason.nvim) – LSP/DAP/Linter/Formatter installer
 - [mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim) – Mason helper
 - [fidget.nvim](https://github.com/j-hui/fidget.nvim) – LSP progress UI
 - [conform.nvim](https://github.com/stevearc/conform.nvim) – Code formatter

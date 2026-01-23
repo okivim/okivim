@@ -23,7 +23,7 @@ full control over plugins and features.
 ---
 
 ## Language servers
-**managed by Mason**
+***(managed by Mason)***
 
 These LSPs are automatically installed and enabled:
 
@@ -43,10 +43,22 @@ These LSPs are automatically installed and enabled:
 - yamlls
 
 ## Formatters
-**managed by Mason**
+***(managed by Mason)***
+
+These formatters are automatically installed and enabled:
 
 - prettierd
 - taplo
+
+## Debug adapters (DAP)
+***(managed by Mason)***
+
+These debug adapters are automatically installed and enabled:
+
+- debugpy - Python
+- codelldb - Rust/C/C++
+- js-debug-adapter - JS/TS
+- php-debug-adapter - PHP
 
 ---
 

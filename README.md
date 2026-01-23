@@ -53,6 +53,11 @@ These LSPs are automatically installed and enabled:
 - vue_ls
 - yamlls
 
+## Formatters (managed by Mason)
+
+- prettierd
+- taplo
+
 ---
 
 ## Plugin manager

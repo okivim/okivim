@@ -62,7 +62,7 @@ These keymaps are available in buffers with LSP enabled.
 | Keymap | Mode | Description |
 |--------|------|-------------|
 | `-` | Normal | Open parent directory |
-| `g.` | Normal | Show hidden files and folders |
+| `g.` | Normal | Toggle hidden files and directories |
 
 ### Gitsigns
 

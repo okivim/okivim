@@ -48,16 +48,16 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 - **[Git](https://git-scm.com/)** >= 2.19.0
 - a **[Nerd Font](https://www.nerdfonts.com/)** to display some icons (optional)
 
-### Required Dependencies (for full functionality)
+### Required Dependencies
 - **Clipboard support** *(more info on [dependencies](./docs/dependencies.md))*
 - **[ripgrep](https://github.com/BurntSushi/ripgrep)** and **[fd](https://github.com/sharkdp/fd)** used by `Telescope` *(more info on [dependencies](./docs/dependencies.md))*
 - **[nvim-treesitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)** and **C compiler** for `nvim-treesitter` *(more info on [dependencies](./docs/dependencies.md))*
 - and a **terminal that support true color and undercurl**:
-  - [kitty](https://sw.kovidgoyal.net/kitty/) *(Linux & Macos)*
-  - [wezterm](https://wezterm.org/) *(Linux, Macos & Windows)*
-  - [alacritty](https://alacritty.org/) *(Linux, Macos & Windows)*
-  - [iterm2](https://iterm2.com/) *(Macos)*
-  - [ghostty](https://ghostty.org/) *(Linux, Macos & Windows)*
+  - [kitty](https://sw.kovidgoyal.net/kitty/) - (Linux / macOS)
+  - [wezterm](https://wezterm.org/) - (Linux / macOS / Windows)
+  - [alacritty](https://alacritty.org/) - (Linux / macOS / Windows)
+  - [iterm2](https://iterm2.com/) - (macOS)
+  - [ghostty](https://ghostty.org/) - (Linux / macOS / Windows)
 
 ---
 
@@ -91,10 +91,10 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 
 ## Debug adapters (DAP)
 
-- debugpy - *Python*
-- codelldb - *Rust/C/C++*
-- js-debug-adapter - *JS/TS*
-- php-debug-adapter - *PHP*
+- debugpy - (Python)
+- codelldb - (Rust / C / C++)
+- js-debug-adapter - (JS / TS)
+- php-debug-adapter - (PHP)
 
 &nbsp;
 
@@ -123,7 +123,7 @@ Use `:Theme <name>` to switch themes. The selected theme is saved and automatica
 
 ### LSP and Tools
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) – *LSP setup*
-- [mason.nvim](https://github.com/williamboman/mason.nvim) – *LSP/DAP/Linter/Formatter installer*
+- [mason.nvim](https://github.com/williamboman/mason.nvim) – *LSP / DAP / Linter / Formatter installer*
 - [mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim) – *Mason helper*
 - [fidget.nvim](https://github.com/j-hui/fidget.nvim) – *LSP progress UI*
 - [conform.nvim](https://github.com/stevearc/conform.nvim) – *Code formatter*
@@ -156,7 +156,7 @@ Use `:Theme <name>` to switch themes. The selected theme is saved and automatica
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim) – *Comment toggle*
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) – *Auto close pairs*
 - [mini.surround](https://github.com/nvim-mini/mini.surround) – *Surround editing*
-- [treesj](https://github.com/Wansmer/treesj) – *Split/join code*
+- [treesj](https://github.com/Wansmer/treesj) – *Split / join code*
 - [yanky.nvim](https://github.com/gbprod/yanky.nvim) – *Yank history*
 - [mynotes.nvim](https://github.com/Mathiew82/mynotes.nvim) – *Your notes*
 - [phantom.nvim](https://github.com/Mathiew82/phantom.nvim) – *Session manager*

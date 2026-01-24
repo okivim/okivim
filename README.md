@@ -67,7 +67,7 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 
 ---
 
-## Language servers
+## Language servers (LSP's)
 
 - bashls
 - cssls

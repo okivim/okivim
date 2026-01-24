@@ -43,7 +43,7 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 
 ## Requirements
 
-### Core Requirements
+### Basics
 - **[Neovim](https://neovim.io/)** >= 0.11.2
 - **[Git](https://git-scm.com/)** >= 2.19.0
 - a **[Nerd Font](https://www.nerdfonts.com/)** to display some icons (optional)

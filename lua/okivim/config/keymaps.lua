@@ -19,6 +19,24 @@ vim.keymap.set("v", "<", "<gv", { desc = "Indent left (keep selection)" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right (keep selection)" })
 vim.keymap.set("n", "<leader>dy", vim.diagnostic.open_float, { desc = "Show diagnostics" })
 vim.keymap.set("n", "<leader>f", "/", { desc = "Search forward" })
+vim.keymap.set("n", "<leader>t", "<cmd>split | terminal<CR>", { desc = "Split terminal" })
+vim.keymap.set("n", "<leader>tv", "<cmd>vsplit | terminal<CR>", { desc = "Split terminal vertically" })
+vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to the left window" })
+vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Go to the down window" })
+vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Go to the up window" })
+vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Go to the right window" })
+
+-- ------------------------------
+-- Terminal
+-- ------------------------------
+vim.keymap.set("n", "<leader>t", function()
+  vim.cmd("split | terminal")
+  vim.cmd("startinsert")
+end, { desc = "Split terminal" })
+vim.keymap.set("n", "<leader>tv", function()
+  vim.cmd("vsplit | terminal")
+  vim.cmd("startinsert")
+end, { desc = "Split terminal vertically" })
 
 -- ------------------------------
 -- Telescope Keymaps

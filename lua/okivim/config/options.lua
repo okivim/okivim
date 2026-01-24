@@ -1,5 +1,7 @@
 vim.opt.number = true             -- Show line numbers
 vim.opt.relativenumber = true     -- Show relative line numbers
+vim.opt.splitright = true         -- Split vertically right
+vim.opt.splitbelow = true         -- Split below
 
 vim.opt.tabstop = 2               -- A tab equals 2 spaces
 vim.opt.shiftwidth = 2            -- Indentation size when using >>

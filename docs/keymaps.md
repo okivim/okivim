@@ -13,8 +13,8 @@ This documentation contains all keymaps configured in the Neovim setup, organize
 | `<S-Tab>` | Normal | Previous buffer |
 | `<leader>bls` | Normal | List buffers |
 | `<leader>o` | Normal | Insert empty line below |
-| `<leader>v` | Normal | Select current line |
-| `<leader>vy` | Normal | Copy current line |
+| `<leader>v` | Normal | Select current line *(without line break)* |
+| `<leader>vy` | Normal | Copy current line *(without line break)* |
 | `<leader>x` | Normal | Close buffer |
 | `<leader>a` | Normal | Select entire file |
 | `<leader>y` | Visual | Copy selection |
@@ -24,6 +24,12 @@ This documentation contains all keymaps configured in the Neovim setup, organize
 | `>` | Visual | Indent right (keep selection) |
 | `<leader>dy` | Normal | Show diagnostics |
 | `<leader>f` | Normal | Search forward |
+| `<leader>t` | Normal | Split terminal |
+| `<leader>tv` | Normal | Split terminal vertically |
+| `<C-h>` | Normal | Go to the left window |
+| `<C-j>` | Normal | Go to the down window |
+| `<C-k>` | Normal | Go to the up window |
+| `<C-l>` | Normal | Go to the right window |
 
 ## Plugin Keymaps
 

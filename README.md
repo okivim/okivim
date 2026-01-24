@@ -5,7 +5,7 @@
 <h4 align="center">
     <a href="#installation">Installation</a>
     <span>&nbsp;+&nbsp;</span>
-    <a href="#language-servers">LSP's</a>
+    <a href="#language-servers-lsps">LSP's</a>
     <span>&nbsp;+&nbsp;</span>
     <a href="#plugin-manager">Plugins</a>
     <span>&nbsp;+&nbsp;</span>

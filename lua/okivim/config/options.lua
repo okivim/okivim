@@ -1,5 +1,6 @@
 vim.opt.number = true             -- Show line numbers
 vim.opt.relativenumber = true     -- Show relative line numbers
+
 vim.opt.splitright = true         -- Split vertically right
 vim.opt.splitbelow = true         -- Split below
 

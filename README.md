@@ -46,6 +46,9 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 - [Neovim](https://neovim.io/) >= 0.11.2
 - [Git](https://git-scm.com/) >= 2.19.0
 - a [Nerd Font](https://www.nerdfonts.com/) to display some icons (optional)
+- **[ripgrep](https://github.com/BurntSushi/ripgrep)** and **[fd](https://github.com/sharkdp/fd)** used by `Telescope` *(more info on installation [dependencies](./docs/dependencies.md))*
+- **nvim-treesitter-cli** and **C compiler** for `nvim-treesitter` *(more info on installation [dependencies](./docs/dependencies.md))*
+- Clipboard support *(more info on installation [dependencies](./docs/dependencies.md))*
 
 ---
 

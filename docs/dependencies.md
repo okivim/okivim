@@ -105,7 +105,7 @@ tree-sitter --version
 
 **2- Required a C compiler:**
 
-**Install on Linux**
+**Install on Linux / macOS**
 
 Ubuntu / Debian
 ``` bash

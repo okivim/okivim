@@ -12,7 +12,20 @@
     <a href="./docs/keymaps.md">Keymaps</a>
 </h4>
 
-&nbsp;
+<div align="center"><p>
+    <a href="https://github.com/Mathiew82/okivim/blob/main/LICENSE">
+      <img alt="License" src="https://img.shields.io/github/license/Mathiew82/okivim?style=for-the-badge&logo=starship&color=7788cc&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/Mathiew82/okivim/stargazers">
+      <img alt="Stars" src="https://img.shields.io/github/stars/Mathiew82/okivim?style=for-the-badge&logo=starship&color=96dff5&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/Mathiew82/okivim/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/Mathiew82/okivim?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/Mathiew82/okivim">
+      <img alt="Repo Size" src="https://img.shields.io/github/repo-size/Mathiew82/okivim?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+</div>
 
 okivim is a minimal and efficient Neovim configuration focused on simplicity, performance, and maintainability. It provides a clean foundation with modern features like LSP, formatting, and diagnostics, while keeping the configuration transparent and easy to customize. Built to stay fast, predictable, and out of your way — giving you a setup that grows with your workflow.
 

@@ -59,8 +59,6 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
   - [iterm2](https://iterm2.com/) - (macOS)
   - [ghostty](https://ghostty.org/) - (Linux / macOS / Windows)
 
----
-
 ## Installation
 
 **[How to install](./docs/installation.md)** *([See dependencies](./docs/dependencies.md))*

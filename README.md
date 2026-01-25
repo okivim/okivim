@@ -1,3 +1,5 @@
+<div id="top"></div>
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/okivim/okivim/main/logo.png" width="400" alt="okivim">
 </div>
@@ -380,6 +382,12 @@ Huge thanks to these amazing developers for their awesome work:
   </tr>
 </table>
 
+</div>
+<br>
+
+<div align="center">
+© 2025 Alberto Mateo Alcala. <a href="https://github.com/okivim/okivim/blob/main/LICENSE">MIT License</a>.
+<a href="#top">🔝</a>
 </div>
 
 &nbsp;

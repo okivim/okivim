@@ -105,16 +105,6 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 
 ## Installed Plugins
 
-### Themes
-- [catppuccin](https://github.com/catppuccin/nvim)
-- [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
-- [kanagawa](https://github.com/rebelot/kanagawa.nvim)
-- [tokyonight](https://github.com/folke/tokyonight.nvim)
-- [rose-pine](https://github.com/rose-pine/neovim)
-- [nightfox](https://github.com/EdenEast/nightfox.nvim)
-
-> Easy to configure: add your themes in `plugins/colorscheme.lua` and switch the active one by changing the **colorscheme** option.
-
 ### Autocomplete
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) – *Completion engine*
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip) – *Snippets engine*
@@ -133,12 +123,12 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 - [nvim-dap-vscode-js](https://github.com/mxsdev/nvim-dap-vscode-js) – *VS Code JS debugger adapter*
 - [nvim-nio](https://github.com/nvim-neotest/nvim-nio) – *Async IO dependency*
 
+### File Explorer
+- [oil.nvim](https://github.com/stevearc/oil.nvim) – *File manager*
+
 ### Coloring and syntax
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) – *Syntax highlighting*
 - [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) – *Color preview*
-
-### File Explorer
-- [oil.nvim](https://github.com/stevearc/oil.nvim) – *File manager*
 
 ### Search and navigation
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) – *Fuzzy finder*
@@ -161,6 +151,11 @@ okivim is a minimal and efficient Neovim configuration focused on simplicity, pe
 
 ### Git
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) – *Git indicators*
+
+### Themes
+[catppuccin](https://github.com/catppuccin/nvim) - [gruvbox](https://github.com/ellisonleao/gruvbox.nvim) - [kanagawa](https://github.com/rebelot/kanagawa.nvim) - [tokyonight](https://github.com/folke/tokyonight.nvim) - [rose-pine](https://github.com/rose-pine/neovim) - [nightfox](https://github.com/EdenEast/nightfox.nvim)
+
+> Easy to configure: add your themes in `plugins/colorscheme.lua` and switch the active one by changing the **colorscheme** option.
 
 ---
 

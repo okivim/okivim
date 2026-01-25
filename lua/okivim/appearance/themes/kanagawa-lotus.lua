@@ -1,5 +1,10 @@
 return {
-  "rebelot/kanagawa.nvim",
-  priority = 1000,
-  opts = { theme = "lotus" },
+  name = "kanagawa",
+  colorscheme = "kanagawa-lotus",
+  background = "light",
+  plugin = {
+    "rebelot/kanagawa.nvim",
+    priority = 1000,
+    opts = { theme = "lotus" },
+  },
 }

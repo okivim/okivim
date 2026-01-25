@@ -1,7 +1,7 @@
 return {
-  name = "rose-pine-dawn",
-  colorscheme = "rose-pine-dawn",
-  background = "light",
+  name = "rose-pine",
+  colorscheme = "rose-pine",
+  background = "dark",
   plugin = {
     "rose-pine/neovim",
     name = "rose-pine",

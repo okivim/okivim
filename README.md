@@ -44,8 +44,7 @@
 - **[Git](https://git-scm.com/)** >= 2.19.0
 - a **[Nerd Font](https://www.nerdfonts.com/)** to display some icons (optional)
 
-### Required Dependencies
-- **Clipboard support** *(more info on [dependencies](./docs/dependencies.md))*
+### Required for full functionality
 - **[ripgrep](https://github.com/BurntSushi/ripgrep)** and **[fd](https://github.com/sharkdp/fd)** used by `Telescope` *(more info on [dependencies](./docs/dependencies.md))*
 - **[nvim-treesitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)** and **C compiler** for `nvim-treesitter` *(more info on [dependencies](./docs/dependencies.md))*
 - and a **terminal that support true color and undercurl**:

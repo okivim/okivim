@@ -31,9 +31,9 @@
 
 - ⚡ Minimal, clean, and distraction-free setup
 - 🎯 Thoughtful defaults that respect core Neovim behavior
-- 🧩 Fully modular configuration, easy to customize
+- ⚙️ Fully modular configuration, easy to customize
 - 🧭 Clean navigation — no tabs, no file tree, no distractions
-- 🛠 Carefully curated plugins, no unnecessary bloat
+- 🧩 Carefully curated plugins, no unnecessary bloat
 
 ## Requirements
 

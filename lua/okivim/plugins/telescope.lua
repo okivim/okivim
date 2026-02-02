@@ -7,6 +7,13 @@ return {
 
       local builtin = require("telescope.builtin")
 
+      vim.keymap.set("n", "<leader>fc", function()
+        builtin.find_files({
+          cwd = vim.fn.stdpath("config"),
+          hidden = true,
+        })
+      end, { desc = "Find config files" })
+
       vim.keymap.set("n", "<leader>ffh", function()
         builtin.find_files({
           hidden = true,

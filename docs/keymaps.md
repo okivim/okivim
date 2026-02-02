@@ -62,9 +62,16 @@ These keymaps are available in buffers with LSP enabled.
 | `<leader>fg` | Normal | Live grep (search text in project) |
 | `<leader>fb` | Normal | Find buffers |
 | `<leader>fh` | Normal | Help tags |
+| `<leader>fr` | Normal | Recent Files |
+| `<leader>fc` | Normal | Find config files |
 | `<leader>ffh` | Normal | Find files + hidden |
 | `<leader>ffa` | Normal | Find all files |
-| `<leader>h` | Normal | Yank history (requires yanky) |
+
+### Yanky
+
+| Keymap | Mode | Description |
+|--------|------|-------------|
+| `<leader>h` | Normal | Yank history |
 
 ### Oil
 

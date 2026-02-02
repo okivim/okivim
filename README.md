@@ -199,8 +199,9 @@ debugpy (Python) - codelldb (Rust / C / C++) - js-debug-adapter (JS / TS) - php-
 
 ## Screenshots
 
-| ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot1.png) | ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot2.png) | ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot3.png) | ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot4.png) |
-|:---------------------:|:---------------------:|:---------------------:|:---------------------:|
+| ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot1.png) | ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot2.png) |
+| ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot3.png) | ![](https://raw.githubusercontent.com/okivim/okivim/refs/heads/main/screenshots/screenshot4.png) |
+|:---------------------:|:---------------------:|
 
 ---
 

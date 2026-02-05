@@ -88,7 +88,8 @@ These keymaps are available in buffers with LSP enabled.
 | `cc` | Normal | Commit staged changes |
 | `ca` | Normal | Amend last commit |
 | `ce` | Normal | Extend last commit |
-| `dd` | Normal | Discard changes in file |
+| `dd` | Normal | Open diff for file under cursor |
+| `X`  | Normal | Discard changes in file |
 | `D` | Normal | Show full diff |
 | `q` | Normal | Close Git status buffer |
 

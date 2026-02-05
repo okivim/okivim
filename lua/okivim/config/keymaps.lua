@@ -63,6 +63,13 @@ vim.keymap.set("n", "<leader>G", "<cmd>Git<cr>", { desc = "Open Git status (Fugi
 vim.keymap.set("n", "<leader>Gb", "<cmd>Git<cr>", { desc = "Open Git blame (Fugitive)" })
 
 -- ------------------------------
+-- Diffview Keymaps
+-- ------------------------------
+vim.keymap.set("n", "<leader>do", "<cmd>DiffviewOpen<cr>", { desc = "Diffview: open" })
+vim.keymap.set("n", "<leader>dH", "<cmd>DiffviewFileHistory %<cr>", { desc = "Diffview: file history" })
+vim.keymap.set("n", "<leader>dc", "<cmd>DiffviewClose<cr>", { desc = "Diffview: close" })
+
+-- ------------------------------
 -- Gitsigns Keymaps
 -- ------------------------------
 vim.keymap.set("n", "<leader>gp", "<cmd>Gitsigns preview_hunk<CR>", {

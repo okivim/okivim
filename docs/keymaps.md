@@ -133,6 +133,14 @@ These keymaps are available in buffers with LSP enabled.
 > **Note**  
 > Fugitive follows a *buffer-centric workflow*: most Git actions are performed inside the `:Git` buffer using local keybindings, rather than global mappings.
 
+### Diffview
+
+| Keymap | Mode | Description |
+|--------|------|-------------|
+| `<leader>do` | Normal | Open Diffview |
+| `<leader>dH` | Normal | File history (current file) |
+| `<leader>dc` | Normal | Close Diffview |
+
 ### Gitsigns
 
 | Keymap | Mode | Description |

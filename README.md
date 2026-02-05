@@ -191,6 +191,7 @@ debugpy (Python) - codelldb (Rust / C / C++) - js-debug-adapter (JS / TS) - php-
 ### Git
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) – *Git indicators*
 - [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) – *Git workflow*
+- [diffview.nvim](https://github.com/sindrets/diffview.nvim) – *Git diff & history*
 
 ### Themes
 [catppuccin](https://github.com/catppuccin/nvim) - [gruvbox](https://github.com/ellisonleao/gruvbox.nvim) - [kanagawa](https://github.com/rebelot/kanagawa.nvim) - [tokyonight](https://github.com/folke/tokyonight.nvim) - [rose-pine](https://github.com/rose-pine/neovim) - [nightfox](https://github.com/EdenEast/nightfox.nvim)
@@ -397,6 +398,20 @@ Huge thanks to these amazing developers for their awesome work:
 	  <a href="https://github.com/tpope">
         <img src="https://avatars.githubusercontent.com/u/378?v=4" width="50"/>
       </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <a href="https://github.com/sindrets">
+        <img src="https://avatars.githubusercontent.com/u/2786478?v=4" width="50"/>
+      </a>
+    </td>
+    <td align="center">
+    </td>
+    <td align="center">
+    </td>
+    <td align="center">
     </td>
   </tr>
 </table>

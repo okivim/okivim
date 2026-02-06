@@ -67,7 +67,7 @@ These keymaps are available in buffers with LSP enabled.
 
 | Keymap | Mode | Description |
 |--------|------|-------------|
-| `-` | Normal | Oil: open parent directory |
+| `-` | Normal | Open parent directory |
 
 ### Fugitive
 
@@ -75,8 +75,8 @@ These keymaps are available in buffers with LSP enabled.
 
 | Keymap | Mode | Description |
 |-------|------|-------------|
-| `<leader>G` | Normal | Fugitive: Open Git status |
-| `<leader>Gb` | Normal | Fugitive: Open Git blame |
+| `<leader>G` | Normal | Open git status |
+| `<leader>Gb` | Normal | Open git blame |
 
 #### Inside `:Git` buffer
 
@@ -91,7 +91,7 @@ These keymaps are available in buffers with LSP enabled.
 | `dd` | Normal | Open diff for file under cursor |
 | `X`  | Normal | Discard changes in file |
 | `D` | Normal | Show full diff |
-| `q` | Normal | Close Git status buffer |
+| `q` | Normal | Close git status buffer |
 
 #### Inside `:Git blame` buffer
 
@@ -109,28 +109,28 @@ These keymaps are available in buffers with LSP enabled.
 
 | Keymap | Mode | Description |
 |--------|------|-------------|
-| `<leader>do` | Normal | Diffview: open |
-| `<leader>dH` | Normal | Diffview: file history |
-| `<leader>dc` | Normal | Diffview: close |
+| `<leader>do` | Normal | Open |
+| `<leader>dH` | Normal | File history |
+| `<leader>dc` | Normal | Close |
 
 ### Gitsigns
 
 | Keymap | Mode | Description |
 |--------|------|-------------|
-| `<leader>gp` | Normal | Gitsigns: Preview hunks in popup |
-| `<leader>gs` | Normal | Gitsigns: Stage hunk |
-| `<leader>gr` | Normal | Gitsigns: Reset hunk |
-| `<leader>gb` | Normal | Gitsigns: Toggle current line blame |
-| `<leader>gi` | Normal | Gitsigns: Show info about the commit |
-| `<leader>gd` | Normal | Gitsigns: Diff against HEAD |
-| `<leader>gn` | Normal | Gitsigns: Toggle number highlighting |
-| `<leader>gl` | Normal | Gitsigns: Toggle line highlighting |
+| `<leader>gp` | Normal | Preview hunks in popup |
+| `<leader>gs` | Normal | Stage hunk |
+| `<leader>gr` | Normal | Reset hunk |
+| `<leader>gb` | Normal | Toggle current line blame |
+| `<leader>gi` | Normal | Show info about the commit |
+| `<leader>gd` | Normal | Diff against HEAD |
+| `<leader>gn` | Normal | Toggle number highlighting |
+| `<leader>gl` | Normal | Toggle line highlighting |
 
 ### Aerial
 
 | Keymap | Mode | Description |
 |--------|------|-------------|
-| `<leader>o` | Normal | Toggle Aerial Outline |
+| `<leader>o` | Normal | Toggle outline |
 
 ---
 

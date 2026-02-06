@@ -13,6 +13,7 @@ return {
           css             = { "stylelint", "prettierd" },
           html            = { "prettierd" },
           vue             = { "prettierd" },
+          toml            = { "taplo" },
         },
 
         formatters = {

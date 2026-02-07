@@ -21,9 +21,6 @@ return {
       vim.api.nvim_create_autocmd("FileType", {
         pattern = {
           "dashboard",
-          "alpha",
-          "starter",
-          "neo-tree",
           "lazy",
           "mason",
         },

@@ -10,7 +10,7 @@ vim.keymap.set("n", "<leader>bl", vim.cmd.ls, { desc = "Buffer list" })
 vim.keymap.set("n", "<leader>alb", "o<Esc>k", { desc = "Insert empty line below" })
 vim.keymap.set("n", "<leader>sl", "0v$h", { desc = "Select line (no newline)" })
 vim.keymap.set("n", "<leader>yl", "0v$hy", { desc = "Copy line (no newline)" })
-vim.keymap.set("n", "<leader>x", vim.cmd.bdelete, { desc = "Close buffer" })
+vim.keymap.set("n", "<leader>bx", vim.cmd.bdelete, { desc = "Close buffer" })
 vim.keymap.set("n", "<leader>a", "ggVG", { desc = "Select entire file" })
 vim.keymap.set("v", "<leader>y", '"+y', { desc = "Copy selection" })
 vim.keymap.set("n", "<leader>yy", '"+yy', { desc = "Copy line" })
@@ -92,3 +92,12 @@ vim.keymap.set("n", "<leader>gl", "<cmd>Gitsigns toggle_linehl<CR>", { desc = "G
 -- Aerial Keymaps
 -- ------------------------------
 vim.keymap.set("n", "<leader>o", "<cmd>AerialToggle!<cr>", { desc = "Aerial: Toggle outline" })
+
+-- ------------------------------
+-- Trouble Keymaps
+-- ------------------------------
+vim.keymap.set("n", "<leader>xx", "<cmd>Trouble diagnostics toggle<CR>", { desc = "Trouble: diagnostics" })
+vim.keymap.set("n", "<leader>xX", "<cmd>Trouble diagnostics toggle filter.buf=0<CR>",
+  { desc = "Trouble: buffer diagnostics" })
+vim.keymap.set("n", "<leader>xq", "<cmd>Trouble qflist toggle<CR>", { desc = "Trouble: quickfix list" })
+vim.keymap.set("n", "<leader>xl", "<cmd>Trouble loclist toggle<CR>", { desc = "Trouble: location list" })

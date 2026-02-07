@@ -92,12 +92,3 @@ vim.keymap.set("n", "<leader>gl", "<cmd>Gitsigns toggle_linehl<CR>", { desc = "G
 -- Aerial Keymaps
 -- ------------------------------
 vim.keymap.set("n", "<leader>o", "<cmd>AerialToggle!<cr>", { desc = "Aerial: Toggle outline" })
-
--- ------------------------------
--- Trouble Keymaps
--- ------------------------------
-vim.keymap.set("n", "<leader>xx", "<cmd>Trouble diagnostics toggle<CR>", { desc = "Trouble: diagnostics" })
-vim.keymap.set("n", "<leader>xX", "<cmd>Trouble diagnostics toggle filter.buf=0<CR>",
-  { desc = "Trouble: buffer diagnostics" })
-vim.keymap.set("n", "<leader>xq", "<cmd>Trouble qflist toggle<CR>", { desc = "Trouble: quickfix list" })
-vim.keymap.set("n", "<leader>xl", "<cmd>Trouble loclist toggle<CR>", { desc = "Trouble: location list" })

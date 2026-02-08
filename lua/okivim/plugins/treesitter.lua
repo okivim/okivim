@@ -25,19 +25,5 @@ return {
     })
 
     vim.treesitter.language.register("markdown", "mdx")
-
-    vim.api.nvim_create_autocmd("FileType", {
-      pattern = {
-        "c", "cpp", "lua",
-        "html", "css", "scss",
-        "javascript", "typescript", "javascriptreact", "typescriptreact",
-        "markdown", "mdx",
-        "vue", "yaml", "bash", "json", "toml", "php",
-        "python", "rust",
-      },
-      callback = function()
-        pcall(vim.treesitter.start)
-      end,
-    })
   end,
 }

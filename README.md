@@ -211,7 +211,6 @@ Huge thanks to these amazing developers for their awesome work:
   <a href="https://github.com/WhoIsSethDaniel"><img src="https://avatars.githubusercontent.com/u/4702260?v=4" width="50"/></a>
   <a href="https://github.com/rcarriga"><img src="https://avatars.githubusercontent.com/u/1611543?v=4" width="50"/></a>
   <a href="https://github.com/theHamsta"><img src="https://avatars.githubusercontent.com/u/1641923?v=4" width="50"/></a>
-  <a href="https://github.com/williamboman"><img src="https://avatars.githubusercontent.com/u/103369?v=4" width="50"/></a>
   <a href="https://github.com/jay-babu"><img src="https://avatars.githubusercontent.com/u/2443058?v=4" width="50"/></a>
   <a href="https://github.com/ellisonleao"><img src="https://avatars.githubusercontent.com/u/544372?v=4" width="50"/></a>
   <a href="https://github.com/rebelot"><img src="https://avatars.githubusercontent.com/u/3069142?v=4" width="50"/></a>

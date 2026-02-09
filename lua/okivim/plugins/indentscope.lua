@@ -2,6 +2,19 @@ return {
   {
     "echasnovski/mini.indentscope",
     version = "*",
+    event = "VeryLazy",
+    init = function()
+      vim.api.nvim_create_autocmd("FileType", {
+        pattern = {
+          "dashboard",
+          "lazy",
+          "mason",
+        },
+        callback = function()
+          vim.b.miniindentscope_disable = true
+        end,
+      })
+    end,
     config = function()
       local indentscope = require("mini.indentscope")
 
@@ -16,17 +29,6 @@ return {
         },
         symbol = "│",
         options = { try_as_border = true },
-      })
-
-      vim.api.nvim_create_autocmd("FileType", {
-        pattern = {
-          "dashboard",
-          "lazy",
-          "mason",
-        },
-        callback = function()
-          vim.b.miniindentscope_disable = true
-        end,
       })
     end,
   },

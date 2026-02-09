@@ -1,6 +1,16 @@
 return {
   {
     "mfussenegger/nvim-dap",
+    keys = {
+      "<F5>",
+      "<F10>",
+      "<F11>",
+      "<F12>",
+      "<leader>db",
+      "<leader>dB",
+      "<leader>dr",
+      "<leader>dl",
+    },
     dependencies = {
       { "rcarriga/nvim-dap-ui",           dependencies = { "nvim-neotest/nvim-nio" } },
       { "theHamsta/nvim-dap-virtual-text" },

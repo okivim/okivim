@@ -9,6 +9,7 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000,
+    lazy = false,
     opts = {
       flavour = "mocha", -- mocha | macchiato | frappe | latte
     },
@@ -17,6 +18,7 @@ return {
   { -- colorscheme = "gruvbox"
     "ellisonleao/gruvbox.nvim",
     priority = 1000,
+    lazy = true,
     opts = {
       contrast = "hard", -- hard | soft
     },
@@ -25,6 +27,7 @@ return {
   { -- colorscheme = "kanagawa"
     "rebelot/kanagawa.nvim",
     priority = 1000,
+    lazy = true,
     opts = {
       theme = "dragon", -- dragon | wave | lotus
     },
@@ -33,6 +36,7 @@ return {
   { -- colorscheme = "tokyonight"
     "folke/tokyonight.nvim",
     priority = 1000,
+    lazy = true,
     opts = {
       style = "storm", -- storm | night | moon | day
     },
@@ -42,11 +46,13 @@ return {
     "rose-pine/neovim",
     name = "rose-pine",
     priority = 1000,
+    lazy = true,
   },
 
   { -- colorscheme = "nightfox" | "dayfox" | "dawnfox" | "duskfox" | "nordfox" | "terafox" | "carbonfox"
     "EdenEast/nightfox.nvim",
     priority = 1000,
+    lazy = true,
     opts = {},
   },
 }

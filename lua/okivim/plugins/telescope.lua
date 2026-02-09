@@ -1,6 +1,23 @@
 return {
   {
     "nvim-telescope/telescope.nvim",
+    keys = {
+      "<leader><Space>",
+      "<leader>ff",
+      "<leader>fg",
+      "<leader>fb",
+      "<leader>fh",
+      "<leader>fr",
+      "<leader>fc",
+      "<leader>ffh",
+      "<leader>ffa",
+      "<leader>ld",
+      "<leader>lD",
+      "<leader>li",
+      "<leader>lr",
+      "<leader>ls",
+      "<leader>lS",
+    },
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
       require("telescope").setup({})

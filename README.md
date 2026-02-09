@@ -160,6 +160,12 @@
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)  
   Shows Git change indicators in the sign column and provides Git actions.
 
+- [diffview.nvim](https://github.com/sindrets/diffview.nvim)  
+  Provides a side-by-side diff view for comparing commits, branches, and working tree changes directly inside Neovim.
+
+- [lazygit](https://github.com/kdheepak/lazygit.nvim)  
+  A fast and intuitive terminal UI for Git, ideal for staging, committing, branching, rebasing, and general Git workflows.
+
 ### Themes
 - [catppuccin](https://github.com/catppuccin/nvim)
 - [gruvbox](https://github.com/ellisonleao/gruvbox.nvim)
@@ -219,7 +225,7 @@ Huge thanks to these amazing developers for their awesome work:
   <a href="https://github.com/nvimdev"><img src="https://avatars.githubusercontent.com/u/130372558?v=4" width="50"/></a>
   <a href="https://github.com/Mathiew82"><img src="https://avatars.githubusercontent.com/u/22583657?v=4" width="50"/></a>
   <a href="https://github.com/sindrets"><img src="https://avatars.githubusercontent.com/u/2786478?v=4" width="50"/></a>
-  <a href="https://github.com/tpope"><img src="https://avatars.githubusercontent.com/u/378?v=4" width="50"/></a>
+  <a href="https://github.com/kdheepak"><img src="https://avatars.githubusercontent.com/u/1813121?v=4" width="50"/></a>
 </div>
 
 </div>

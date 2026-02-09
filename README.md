@@ -175,7 +175,7 @@
 - [rose-pine](https://github.com/rose-pine/neovim)
 - [nightfox](https://github.com/EdenEast/nightfox.nvim)
 
-> Easy to configure: add your themes in `plugins/colorscheme.lua` and switch the active one by changing the **colorscheme** option.
+> Easy to configure: add your themes in `plugins/colorscheme.lua` and switch the active one by changing the **colorscheme** option. Make sure the selected theme has `lazy = false`, while all unused themes should be set to `lazy = true`.
 
 ---
 

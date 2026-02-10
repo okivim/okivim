@@ -3,13 +3,15 @@ return function(capabilities)
     cmd = {
       "ngserver",
       "--stdio",
-      "--tsProbeLocations",
-      "",
-      "--ngProbeLocations",
-      "",
+      "--tsProbeLocations", "",
+      "--ngProbeLocations", "",
     },
     filetypes = { "typescript", "html" },
-    root_markers = { "angular.json" },
+
+    root_dir = function(fname)
+      return require("lspconfig.util").root_pattern("angular.json", "project.json")(fname)
+    end,
+
     capabilities = capabilities,
   })
 end

@@ -88,6 +88,9 @@
 - [conform.nvim](https://github.com/stevearc/conform.nvim)  
   Flexible and fast code formatter with support for multiple formatters.
 
+- [trouble.nvim](https://github.com/folke/trouble.nvim)  
+  Provides a structured, persistent list for LSP diagnostics, references, and quickfix/location lists.
+
 ### Debugging (DAP)
 - [mason-nvim-dap.nvim](https://github.com/jay-babu/mason-nvim-dap.nvim)  
   Integrates Mason with nvim-dap to manage debugger installations.
@@ -118,9 +121,6 @@
 ### Search and Navigation
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)  
   Highly extensible fuzzy finder for files, buffers, symbols, and more.
-
-- [aerial.nvim](https://github.com/stevearc/aerial.nvim)  
-  Code outline sidebar showing symbols like functions, classes, and methods.
 
 - [flash.nvim](https://github.com/folke/flash.nvim)  
   Enhanced motion plugin for fast and precise navigation within buffers.

@@ -26,10 +26,10 @@ vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Go to the right window" })
 vim.keymap.set("n", "<leader>w", "<C-w>s", { desc = "Split window" })
 vim.keymap.set("n", "<leader>wv", "<C-w>v", { desc = "Split window vertically" })
 vim.keymap.set("n", "<leader>wq", "<C-w>q", { desc = "Quit a window" })
-vim.keymap.set("n", "<leader>w>", "<cmd>vertical resize +20<CR>", { desc = "Increase window width +20" })
-vim.keymap.set("n", "<leader>w<", "<cmd>vertical resize -20<CR>", { desc = "Decrease window width -20" })
-vim.keymap.set("n", "<leader>w+", "<cmd>resize +10<CR>", { desc = "Increase window height +10" })
-vim.keymap.set("n", "<leader>w-", "<cmd>resize -10<CR>", { desc = "Decrease window height -10" })
+vim.keymap.set("n", "<leader>w>", "<C-w>10>", { desc = "Increase window width (big step)" })
+vim.keymap.set("n", "<leader>w<", "<C-w>10<", { desc = "Decrease window width (big step)" })
+vim.keymap.set("n", "<leader>w+", "<C-w>5+", { desc = "Increase window height (big step)" })
+vim.keymap.set("n", "<leader>w-", "<C-w>5-", { desc = "Decrease window height (big step)" })
 
 -- ------------------------------
 -- Terminal

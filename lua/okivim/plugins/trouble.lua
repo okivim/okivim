@@ -22,7 +22,7 @@ return {
       },
       {
         "<leader>cl",
-        function() t().toggle("lsp", { focus = false, win = { position = "right" } }) end,
+        function() t().toggle("lsp", { focus = false }) end,
         desc = "Trouble: LSP",
       },
       {

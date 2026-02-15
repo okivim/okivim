@@ -44,8 +44,8 @@
 
 ### Required for full functionality
 - **[Lazygit](https://github.com/jesseduffield/lazygit)**
-- **[ripgrep](https://github.com/BurntSushi/ripgrep)** and **[fd](https://github.com/sharkdp/fd)** used by `Telescope` *(more info on [dependencies](./docs/dependencies.md))*
-- **[nvim-treesitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)** and **C compiler** for `nvim-treesitter` *(more info on [dependencies](./docs/dependencies.md))*
+- **[ripgrep](https://github.com/BurntSushi/ripgrep)** and **[fd](https://github.com/sharkdp/fd)** used by `Telescope` *(more info on [dependencies](https://okivim.org/docs/getting-started#dependencies))*
+- **[nvim-treesitter-cli](https://github.com/tree-sitter/tree-sitter/blob/master/crates/cli/README.md)** and **C compiler** for `nvim-treesitter` *(more info on [dependencies](https://okivim.org/docs/getting-started#dependencies))*
 - and a **terminal that support true color and undercurl**:
   - [kitty](https://sw.kovidgoyal.net/kitty/) - (Linux / macOS)
   - [wezterm](https://wezterm.org/) - (Linux / macOS / Windows)

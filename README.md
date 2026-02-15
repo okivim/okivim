@@ -5,11 +5,11 @@
 </div>
 
 <h4 align="center">
-    <a href="#installation">Installation</a>
+    <a href="https://okivim.org/docs/installation">Installation</a>
     <span>&nbsp;+&nbsp;</span>
     <a href="https://okivim.org/docs/configuration/lsps">LSP's</a>
     <span>&nbsp;+&nbsp;</span>
-    <a href="#plugin-manager">Plugins</a>
+    <a href="https://okivim.org/docs/configuration/plugins">Plugins</a>
     <span>&nbsp;+&nbsp;</span>
     <a href="https://okivim.org/docs/configuration/keymaps">Keymaps</a>
 </h4>

@@ -15,6 +15,7 @@ return {
           html            = { "prettier" },
           vue             = { "prettier" },
           toml            = { "taplo" },
+          rust            = { "rustfmt" },
         },
 
         formatters = {
@@ -25,7 +26,7 @@ return {
 
         format_on_save = {
           timeout_ms = 2000,
-          lsp_fallback = false,
+          lsp_fallback = true,
         },
       })
     end,

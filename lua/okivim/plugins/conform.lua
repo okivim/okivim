@@ -14,6 +14,7 @@ return {
           css             = { "stylelint", "prettierd", "prettier" },
           html            = { "prettierd", "prettier" },
           vue             = { "prettierd", "prettier" },
+          rust            = { "rustfmt" },
           toml            = { "taplo" },
         },
 

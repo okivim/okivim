@@ -8,7 +8,6 @@ return {
           "prettierd",
           "pint",
           "black",
-          "rustfmt",
           "shfmt",
         },
       })

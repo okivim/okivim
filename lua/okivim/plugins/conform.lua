@@ -14,7 +14,12 @@ return {
           css             = { "stylelint", "prettierd", "prettier" },
           html            = { "prettierd", "prettier" },
           vue             = { "prettierd", "prettier" },
+          dockerfile      = { "dockerfmt" },
+          php             = { "pint" },
+          python          = { "black" },
           rust            = { "rustfmt" },
+          sh              = { "shfmt" },
+          bash            = { "shfmt" },
           toml            = { "taplo" },
         },
 

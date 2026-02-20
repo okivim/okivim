@@ -24,5 +24,13 @@ vim.opt.signcolumn = "yes"        -- Always show sign column
 vim.opt.foldmethod = "syntax"     -- Create folds based on syntax highlighting
 vim.opt.foldlevelstart = 99       -- Start with all folds open
 
-vim.opt.path:append("**")
-vim.opt.suffixesadd:append({ ".ts", ".tsx", ".js", ".jsx", ".json", ".mjs", ".cjs" })
+vim.opt.path:append("**")         -- Search files recursively in all subdirectories when using :find or gf
+vim.opt.suffixesadd:append({
+  ".ts",
+  ".tsx",
+  ".js",
+  ".jsx",
+  ".json",
+  ".mjs",
+  ".cjs",
+})                                -- Automatically try these file extensions when resolving files (e.g., with gf or :find)

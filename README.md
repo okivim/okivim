@@ -16,10 +16,10 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/github/license/okivim/okivim?style=for-the-badge&logo=libreofficeimpress&color=3B73E0&logoColor=D9E0EE&labelColor=302D41)](https://github.com/okivim/okivim/blob/main/LICENSE)&nbsp;
-[![Stars](https://img.shields.io/github/stars/okivim/okivim?style=for-the-badge&logo=apachespark&color=3C83DD&logoColor=D9E0EE&labelColor=302D41)](https://github.com/okivim/okivim/stargazers)&nbsp;
-[![Issues](https://img.shields.io/github/issues/okivim/okivim?style=for-the-badge&logo=bilibili&color=3C8CDC&logoColor=D9E0EE&labelColor=302D41)](https://github.com/okivim/okivim/issues)&nbsp;
-[![SIZE](https://img.shields.io/github/repo-size/okivim/okivim?style=for-the-badge&logo=pkgsrc&color=3C9ADA&logoColor=D9E0EE&labelColor=302D41&label=size)](https://github.com/okivim/okivim)
+[![License](https://img.shields.io/github/license/okivim/okivim?style=for-the-badge&logo=libreofficeimpress&color=403D51&logoColor=D9E0EE&labelColor=302D41)](https://github.com/okivim/okivim/blob/main/LICENSE)&nbsp;
+[![Stars](https://img.shields.io/github/stars/okivim/okivim?style=for-the-badge&logo=apachespark&color=403D51&logoColor=D9E0EE&labelColor=302D41)](https://github.com/okivim/okivim/stargazers)&nbsp;
+[![Issues](https://img.shields.io/github/issues/okivim/okivim?style=for-the-badge&logo=bilibili&color=403D51&logoColor=D9E0EE&labelColor=302D41)](https://github.com/okivim/okivim/issues)&nbsp;
+[![SIZE](https://img.shields.io/github/repo-size/okivim/okivim?style=for-the-badge&logo=pkgsrc&color=403D51&logoColor=D9E0EE&labelColor=302D41&label=size)](https://github.com/okivim/okivim)
 
 </div>
 

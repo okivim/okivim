@@ -13,9 +13,6 @@ vim.keymap.set("n", "<leader>alb", "o<Esc>k", { desc = "Insert empty line below"
 vim.keymap.set("n", "<leader>sl", "0v$h", { desc = "Select line (no newline)" })
 vim.keymap.set("n", "<leader>yl", "0v$hy", { desc = "Copy line (no newline)" })
 vim.keymap.set("n", "<leader>a", "ggVG", { desc = "Select entire file" })
-
-vim.keymap.set("v", "<leader>y", '"+y', { desc = "Copy selection" })
-vim.keymap.set("n", "<leader>yy", '"+yy', { desc = "Copy line" })
 vim.keymap.set({ "n", "v" }, "<leader>d", '"_d', { desc = "Delete (keep clipboard)" })
 
 vim.keymap.set("n", "<leader>;", "A;<Esc>", { desc = "Append semicolon at end of line" })

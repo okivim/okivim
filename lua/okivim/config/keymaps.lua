@@ -7,30 +7,40 @@ vim.keymap.set("n", "<Tab>", vim.cmd.bnext, { desc = "Next buffer" })
 vim.keymap.set("n", "<S-Tab>", vim.cmd.bprevious, { desc = "Previous buffer" })
 vim.keymap.set("n", "<leader>bq", "<cmd>%bd|e#|bd#<CR>", { desc = "Close other buffers" })
 vim.keymap.set("n", "<leader>bl", vim.cmd.ls, { desc = "Buffer list" })
+vim.keymap.set("n", "<leader>bx", vim.cmd.bdelete, { desc = "Close buffer" })
+
 vim.keymap.set("n", "<leader>alb", "o<Esc>k", { desc = "Insert empty line below" })
 vim.keymap.set("n", "<leader>sl", "0v$h", { desc = "Select line (no newline)" })
 vim.keymap.set("n", "<leader>yl", "0v$hy", { desc = "Copy line (no newline)" })
-vim.keymap.set("n", "<leader>bx", vim.cmd.bdelete, { desc = "Close buffer" })
 vim.keymap.set("n", "<leader>a", "ggVG", { desc = "Select entire file" })
+
 vim.keymap.set("v", "<leader>y", '"+y', { desc = "Copy selection" })
 vim.keymap.set("n", "<leader>yy", '"+yy', { desc = "Copy line" })
 vim.keymap.set({ "n", "v" }, "<leader>d", '"_d', { desc = "Delete (keep clipboard)" })
-vim.keymap.set("v", "<", "<gv", { desc = "Indent left (keep selection)" })
-vim.keymap.set("v", ">", ">gv", { desc = "Indent right (keep selection)" })
+
 vim.keymap.set("n", "<leader>;", "A;<Esc>", { desc = "Append semicolon at end of line" })
 vim.keymap.set("n", "<leader>dy", vim.diagnostic.open_float, { desc = "Show diagnostics" })
 vim.keymap.set("n", "<leader>f", "/", { desc = "Search forward" })
+
+vim.keymap.set("v", "<", "<gv", { desc = "Indent left (keep selection)" })
+vim.keymap.set("v", ">", ">gv", { desc = "Indent right (keep selection)" })
+
+vim.keymap.set("n", "<A-j>", ":m .+1<CR>==", { desc = "Move line down" })
+vim.keymap.set("n", "<A-k>", ":m .-2<CR>==", { desc = "Move line up" })
+vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv", { desc = "Move selection down" })
+vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv", { desc = "Move selection up" })
+
 vim.keymap.set("n", "<C-h>", "<C-w>h", { desc = "Go to the left window" })
 vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Go to the down window" })
 vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Go to the up window" })
 vim.keymap.set("n", "<C-l>", "<C-w>l", { desc = "Go to the right window" })
+vim.keymap.set("n", "<C-Up>", ":resize +2<CR>", { desc = "Increase window height" })
+vim.keymap.set("n", "<C-Down>", ":resize -2<CR>", { desc = "Decrease window height" })
+vim.keymap.set("n", "<C-Left>", ":vertical resize -2<CR>", { desc = "Decrease window width" })
+vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>", { desc = "Increase window width" })
 vim.keymap.set("n", "<leader>w", "<C-w>s", { desc = "Split window" })
 vim.keymap.set("n", "<leader>wv", "<C-w>v", { desc = "Split window vertically" })
 vim.keymap.set("n", "<leader>wq", "<C-w>q", { desc = "Quit a window" })
-vim.keymap.set("n", "<leader>w>", "<C-w>10>", { desc = "Increase window width (big step)" })
-vim.keymap.set("n", "<leader>w<", "<C-w>10<", { desc = "Decrease window width (big step)" })
-vim.keymap.set("n", "<leader>w+", "<C-w>5+", { desc = "Increase window height (big step)" })
-vim.keymap.set("n", "<leader>w-", "<C-w>5-", { desc = "Decrease window height (big step)" })
 
 -- ------------------------------
 -- Terminal

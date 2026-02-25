@@ -1,5 +1,5 @@
 -- ------------------------------
--- Global Keymaps
+-- Global
 -- ------------------------------
 vim.keymap.set("n", "<leader>,", vim.cmd.bfirst, { desc = "First buffer" })
 vim.keymap.set("n", "<leader>.", vim.cmd.blast, { desc = "Last buffer" })
@@ -52,7 +52,7 @@ vim.keymap.set("n", "<leader>tv", function()
 end, { desc = "Split terminal vertically" })
 
 -- ------------------------------
--- Telescope Keymaps
+-- Telescope
 -- ------------------------------
 vim.keymap.set("n", "<leader><Space>", "<cmd>Telescope commands<CR>", { desc = "Telescope: Command palette" })
 vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "Telescope: Find files" })
@@ -70,24 +70,24 @@ vim.keymap.set("n", "<leader>lS", "<cmd>Telescope lsp_workspace_symbols<CR>",
   { desc = "Telescope: LSP workspace symbols" })
 
 -- ------------------------------
--- Oil Keymaps
+-- Oil
 -- ------------------------------
 vim.keymap.set("n", "-", "<cmd>Oil<CR>", { desc = "Oil: Open parent directory" })
 
 -- ------------------------------
--- LazyGit Keymaps
+-- LazyGit
 -- ------------------------------
 vim.keymap.set("n", "<leader>gg", "<cmd>LazyGit<CR>", { desc = "LazyGit: Open" })
 
 -- ------------------------------
--- Diffview Keymaps
+-- Diffview
 -- ------------------------------
 vim.keymap.set("n", "<leader>do", "<cmd>DiffviewOpen<cr>", { desc = "Diffview: Open" })
 vim.keymap.set("n", "<leader>dH", "<cmd>DiffviewFileHistory %<cr>", { desc = "Diffview: File history" })
 vim.keymap.set("n", "<leader>dc", "<cmd>DiffviewClose<cr>", { desc = "Diffview: Close" })
 
 -- ------------------------------
--- Gitsigns Keymaps
+-- Gitsigns
 -- ------------------------------
 vim.keymap.set("n", "<leader>gp", "<cmd>Gitsigns preview_hunk<CR>", { desc = "Gitsigns: Preview hunks in popup" })
 vim.keymap.set("n", "<leader>gs", "<cmd>Gitsigns stage_hunk<CR>", { desc = "Gitsigns: Stage hunk" })
@@ -98,3 +98,8 @@ vim.keymap.set("n", "<leader>gi", "<cmd>Gitsigns show_commit<CR>", { desc = "Git
 vim.keymap.set("n", "<leader>gd", "<cmd>Gitsigns diffthis<CR>", { desc = "Gitsigns: Diff against HEAD" })
 vim.keymap.set("n", "<leader>gn", "<cmd>Gitsigns toggle_numhl<CR>", { desc = "Gitsigns: Toggle number highlighting" })
 vim.keymap.set("n", "<leader>gl", "<cmd>Gitsigns toggle_linehl<CR>", { desc = "Gitsigns: Toggle line highlighting" })
+
+-- ------------------------------
+-- Aerial
+-- ------------------------------
+vim.keymap.set("n", "<leader>o", "<cmd>AerialToggle!<cr>", { desc = "Aerial: Toggle outline" })

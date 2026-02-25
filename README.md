@@ -227,6 +227,7 @@ Huge thanks to these amazing developers for their awesome work:
   <a href="https://github.com/Mathiew82"><img src="https://avatars.githubusercontent.com/u/22583657?v=4" width="50"/></a>
   <a href="https://github.com/sindrets"><img src="https://avatars.githubusercontent.com/u/2786478?v=4" width="50"/></a>
   <a href="https://github.com/kdheepak"><img src="https://avatars.githubusercontent.com/u/1813121?v=4" width="50"/></a>
+  <a href="https://github.com/nvim-tree"><img src="https://avatars.githubusercontent.com/u/115335789?v=4" width="50"/></a>
 </div>
 
 </div>

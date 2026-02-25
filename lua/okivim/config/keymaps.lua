@@ -103,3 +103,8 @@ vim.keymap.set("n", "<leader>gl", "<cmd>Gitsigns toggle_linehl<CR>", { desc = "G
 -- Aerial
 -- ------------------------------
 vim.keymap.set("n", "<leader>o", "<cmd>AerialToggle!<cr>", { desc = "Aerial: Toggle outline" })
+
+-- ------------------------------
+-- NvimTree
+-- ------------------------------
+vim.keymap.set("n", "<leader>-", "<cmd>NvimTreeToggle<cr>", { desc = "NvimTree: Explorer" })

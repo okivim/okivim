@@ -47,7 +47,6 @@ vim.opt.fillchars = { eob = " " }                    -- Hide "~" on empty lines
 
 vim.opt.foldmethod = "expr"                          -- Use expression for folding
 vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()" -- Use treesitter for folding
-vim.opt.foldlevelstart = 99                          -- Start with all folds open
 
 vim.opt.path:append("**")                            -- Search files recursively in all subdirectories when using :find or gf
 vim.opt.suffixesadd:append({

@@ -111,6 +111,9 @@
 - [oil.nvim](https://github.com/stevearc/oil.nvim)  
   Lightweight file manager that lets you edit directories like regular buffers.
 
+- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)  
+  A fast and lightweight file explorer tree for Neovim with Git integration and customizable UI.
+
 ### Coloring and Syntax
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
   Advanced syntax highlighting and code parsing based on Tree-sitter.
@@ -124,6 +127,9 @@
 
 - [flash.nvim](https://github.com/folke/flash.nvim)  
   Enhanced motion plugin for fast and precise navigation within buffers.
+
+- [aerial.nvim](https://github.com/stevearc/aerial.nvim)  
+  Code outline panel for Neovim showing document symbols via LSP and Treesitter.
 
 ### Interface
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)  

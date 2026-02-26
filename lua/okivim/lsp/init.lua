@@ -15,9 +15,6 @@ end
 
 vim.diagnostic.config({
   float = { border = border },
-})
-
-vim.diagnostic.config({
   signs = {
     text = {
       [vim.diagnostic.severity.ERROR] = "●",

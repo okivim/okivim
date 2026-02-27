@@ -187,11 +187,11 @@
 
 ## Screenshots
 
-![screenshot2](https://okivim.org/img/screenshots/screenshot2.png)
-![screenshot3](https://okivim.org/img/screenshots/screenshot3.png)
-![screenshot4](https://okivim.org/img/screenshots/screenshot4.png)
+![screenshot2](https://okivim.org/img/screenshots/screenshot-symbols-navigate.png)
 
----
+![screenshot3](https://okivim.org/img/screenshots/screenshot-lsp-diagnostics.png)
+
+![screenshot4](https://okivim.org/img/screenshots/screenshot-git2.png)
 
 &nbsp;
 

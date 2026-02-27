@@ -22,6 +22,11 @@ vim.keymap.set("n", "<leader>f", "/", { desc = "Search forward" })
 vim.keymap.set("v", "<", "<gv", { desc = "Indent left (keep selection)" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent right (keep selection)" })
 
+vim.keymap.set("i", "<C-h>", "<Left>", { desc = "Move cursor one character to the left in insert mode" })
+vim.keymap.set("i", "<C-j>", "<Down>", { desc = "Move cursor one character down in insert mode" })
+vim.keymap.set("i", "<C-k>", "<Up>", { desc = "Move cursor one character up in insert mode" })
+vim.keymap.set("i", "<C-l>", "<Right>", { desc = "Move cursor one character to the right in insert mode" })
+
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>==", { desc = "Move line down" })
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==", { desc = "Move line up" })
 vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv", { desc = "Move selection down" })

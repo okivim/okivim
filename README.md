@@ -118,8 +118,8 @@
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
   Advanced syntax highlighting and code parsing based on Tree-sitter.
 
-- [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua)  
-  Displays color values directly in the editor (hex, rgb, hsl, etc.).
+- [ccc.nvim](https://github.com/uga-rosa/ccc.nvim)  
+  Interactive color picker and color highlighter for hex, rgb, hsl and other color formats.
 
 ### Search and Navigation
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)  

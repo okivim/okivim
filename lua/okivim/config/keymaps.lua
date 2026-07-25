@@ -82,7 +82,13 @@ vim.keymap.set("n", "-", "<cmd>Oil<CR>", { desc = "Oil: Open parent directory" }
 -- ------------------------------
 -- LazyGit
 -- ------------------------------
-vim.keymap.set("n", "<leader>gg", "<cmd>LazyGit<CR>", { desc = "LazyGit: Open" })
+vim.keymap.set("n", "<leader>gg", function()
+  if vim.bo.filetype == "oil" then
+    vim.cmd("silent! write | enew | LazyGit")
+  else
+    vim.cmd("LazyGit")
+  end
+end, { desc = "LazyGit: Open" })
 
 -- ------------------------------
 -- Diffview

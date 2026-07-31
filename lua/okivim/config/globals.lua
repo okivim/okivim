@@ -16,4 +16,4 @@ vim.diagnostic.config({
 -- If you need to debug LSP issues, you can enable logging here.
 -- Keep in mind that the lsp.log file may grow very large if logging
 -- is left enabled for extended periods of time.
-vim.lsp.set_log_level(vim.log.levels.OFF)
+vim.lsp.log.set_level(vim.log.levels.OFF)
